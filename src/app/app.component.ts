@@ -8,6 +8,7 @@ import { environment } from 'src/environments/environment';
 })
 export class AppComponent {
     title = 'qiankun-angular';
+    console.log('111')
     constructor(private iconService: NzIconService) {
         // 更改 icon 加载路径, ant icon 会默认拿根目录下的资源
         // http://127.0.0.1:8082 /angularapp
